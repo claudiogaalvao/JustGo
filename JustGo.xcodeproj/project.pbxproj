@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FA9741A20CAFEC60093EDEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9741920CAFEC60093EDEE /* AppDelegate.swift */; };
+		3FA9741C20CAFEC60093EDEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9741B20CAFEC60093EDEE /* ViewController.swift */; };
+		3FA9741F20CAFEC60093EDEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9741D20CAFEC60093EDEE /* Main.storyboard */; };
+		3FA9742120CAFEC60093EDEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9742020CAFEC60093EDEE /* Assets.xcassets */; };
+		3FA9742420CAFEC60093EDEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9742220CAFEC60093EDEE /* LaunchScreen.storyboard */; };
+		3FA9742F20CAFEC60093EDEE /* JustGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9742E20CAFEC60093EDEE /* JustGoTests.swift */; };
+		3FA9743A20CAFEC70093EDEE /* JustGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9743920CAFEC70093EDEE /* JustGoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FA9742B20CAFEC60093EDEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA9740E20CAFEC60093EDEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA9741520CAFEC60093EDEE;
+			remoteInfo = JustGo;
+		};
+		3FA9743620CAFEC60093EDEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FA9740E20CAFEC60093EDEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA9741520CAFEC60093EDEE;
+			remoteInfo = JustGo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FA9741620CAFEC60093EDEE /* JustGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA9741920CAFEC60093EDEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FA9741B20CAFEC60093EDEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FA9741E20CAFEC60093EDEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FA9742020CAFEC60093EDEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FA9742320CAFEC60093EDEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FA9742520CAFEC60093EDEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA9742A20CAFEC60093EDEE /* JustGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA9742E20CAFEC60093EDEE /* JustGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustGoTests.swift; sourceTree = "<group>"; };
+		3FA9743020CAFEC60093EDEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA9743520CAFEC60093EDEE /* JustGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA9743920CAFEC70093EDEE /* JustGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustGoUITests.swift; sourceTree = "<group>"; };
+		3FA9743B20CAFEC70093EDEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FA9741320CAFEC60093EDEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA9742720CAFEC60093EDEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA9743220CAFEC60093EDEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FA9740D20CAFEC60093EDEE = {
+			isa = PBXGroup;
+			children = (
+				3FA9741820CAFEC60093EDEE /* JustGo */,
+				3FA9742D20CAFEC60093EDEE /* JustGoTests */,
+				3FA9743820CAFEC70093EDEE /* JustGoUITests */,
+				3FA9741720CAFEC60093EDEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FA9741720CAFEC60093EDEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FA9741620CAFEC60093EDEE /* JustGo.app */,
+				3FA9742A20CAFEC60093EDEE /* JustGoTests.xctest */,
+				3FA9743520CAFEC60093EDEE /* JustGoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FA9741820CAFEC60093EDEE /* JustGo */ = {
+			isa = PBXGroup;
+			children = (
+				3FA9741920CAFEC60093EDEE /* AppDelegate.swift */,
+				3FA9741B20CAFEC60093EDEE /* ViewController.swift */,
+				3FA9741D20CAFEC60093EDEE /* Main.storyboard */,
+				3FA9742020CAFEC60093EDEE /* Assets.xcassets */,
+				3FA9742220CAFEC60093EDEE /* LaunchScreen.storyboard */,
+				3FA9742520CAFEC60093EDEE /* Info.plist */,
+			);
+			path = JustGo;
+			sourceTree = "<group>";
+		};
+		3FA9742D20CAFEC60093EDEE /* JustGoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA9742E20CAFEC60093EDEE /* JustGoTests.swift */,
+				3FA9743020CAFEC60093EDEE /* Info.plist */,
+			);
+			path = JustGoTests;
+			sourceTree = "<group>";
+		};
+		3FA9743820CAFEC70093EDEE /* JustGoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FA9743920CAFEC70093EDEE /* JustGoUITests.swift */,
+				3FA9743B20CAFEC70093EDEE /* Info.plist */,
+			);
+			path = JustGoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FA9741520CAFEC60093EDEE /* JustGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA9743E20CAFEC70093EDEE /* Build configuration list for PBXNativeTarget "JustGo" */;
+			buildPhases = (
+				3FA9741220CAFEC60093EDEE /* Sources */,
+				3FA9741320CAFEC60093EDEE /* Frameworks */,
+				3FA9741420CAFEC60093EDEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JustGo;
+			productName = JustGo;
+			productReference = 3FA9741620CAFEC60093EDEE /* JustGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FA9742920CAFEC60093EDEE /* JustGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA9744120CAFEC70093EDEE /* Build configuration list for PBXNativeTarget "JustGoTests" */;
+			buildPhases = (
+				3FA9742620CAFEC60093EDEE /* Sources */,
+				3FA9742720CAFEC60093EDEE /* Frameworks */,
+				3FA9742820CAFEC60093EDEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA9742C20CAFEC60093EDEE /* PBXTargetDependency */,
+			);
+			name = JustGoTests;
+			productName = JustGoTests;
+			productReference = 3FA9742A20CAFEC60093EDEE /* JustGoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FA9743420CAFEC60093EDEE /* JustGoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FA9744420CAFEC70093EDEE /* Build configuration list for PBXNativeTarget "JustGoUITests" */;
+			buildPhases = (
+				3FA9743120CAFEC60093EDEE /* Sources */,
+				3FA9743220CAFEC60093EDEE /* Frameworks */,
+				3FA9743320CAFEC60093EDEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FA9743720CAFEC60093EDEE /* PBXTargetDependency */,
+			);
+			name = JustGoUITests;
+			productName = JustGoUITests;
+			productReference = 3FA9743520CAFEC60093EDEE /* JustGoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FA9740E20CAFEC60093EDEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3FA9741520CAFEC60093EDEE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					3FA9742920CAFEC60093EDEE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FA9741520CAFEC60093EDEE;
+					};
+					3FA9743420CAFEC60093EDEE = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FA9741520CAFEC60093EDEE;
+					};
+				};
+			};
+			buildConfigurationList = 3FA9741120CAFEC60093EDEE /* Build configuration list for PBXProject "JustGo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FA9740D20CAFEC60093EDEE;
+			productRefGroup = 3FA9741720CAFEC60093EDEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FA9741520CAFEC60093EDEE /* JustGo */,
+				3FA9742920CAFEC60093EDEE /* JustGoTests */,
+				3FA9743420CAFEC60093EDEE /* JustGoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FA9741420CAFEC60093EDEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA9742420CAFEC60093EDEE /* LaunchScreen.storyboard in Resources */,
+				3FA9742120CAFEC60093EDEE /* Assets.xcassets in Resources */,
+				3FA9741F20CAFEC60093EDEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA9742820CAFEC60093EDEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA9743320CAFEC60093EDEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FA9741220CAFEC60093EDEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA9741C20CAFEC60093EDEE /* ViewController.swift in Sources */,
+				3FA9741A20CAFEC60093EDEE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA9742620CAFEC60093EDEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA9742F20CAFEC60093EDEE /* JustGoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FA9743120CAFEC60093EDEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA9743A20CAFEC70093EDEE /* JustGoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FA9742C20CAFEC60093EDEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA9741520CAFEC60093EDEE /* JustGo */;
+			targetProxy = 3FA9742B20CAFEC60093EDEE /* PBXContainerItemProxy */;
+		};
+		3FA9743720CAFEC60093EDEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FA9741520CAFEC60093EDEE /* JustGo */;
+			targetProxy = 3FA9743620CAFEC60093EDEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FA9741D20CAFEC60093EDEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA9741E20CAFEC60093EDEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FA9742220CAFEC60093EDEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FA9742320CAFEC60093EDEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FA9743C20CAFEC70093EDEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FA9743D20CAFEC70093EDEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FA9743F20CAFEC70093EDEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JustGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.JustGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3FA9744020CAFEC70093EDEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JustGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.JustGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3FA9744220CAFEC70093EDEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JustGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.JustGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JustGo.app/JustGo";
+			};
+			name = Debug;
+		};
+		3FA9744320CAFEC70093EDEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JustGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.JustGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JustGo.app/JustGo";
+			};
+			name = Release;
+		};
+		3FA9744520CAFEC70093EDEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JustGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.JustGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JustGo;
+			};
+			name = Debug;
+		};
+		3FA9744620CAFEC70093EDEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JustGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.JustGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JustGo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FA9741120CAFEC60093EDEE /* Build configuration list for PBXProject "JustGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA9743C20CAFEC70093EDEE /* Debug */,
+				3FA9743D20CAFEC70093EDEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FA9743E20CAFEC70093EDEE /* Build configuration list for PBXNativeTarget "JustGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA9743F20CAFEC70093EDEE /* Debug */,
+				3FA9744020CAFEC70093EDEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FA9744120CAFEC70093EDEE /* Build configuration list for PBXNativeTarget "JustGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA9744220CAFEC70093EDEE /* Debug */,
+				3FA9744320CAFEC70093EDEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FA9744420CAFEC70093EDEE /* Build configuration list for PBXNativeTarget "JustGoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA9744520CAFEC70093EDEE /* Debug */,
+				3FA9744620CAFEC70093EDEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FA9740E20CAFEC60093EDEE /* Project object */;
+}
