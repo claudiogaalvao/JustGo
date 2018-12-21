@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F2A8BB420CB095800031F80 /* CartoesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2A8BB320CB095800031F80 /* CartoesTableViewCell.swift */; };
+		3F2A8BB620CB097D00031F80 /* HistoricosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2A8BB520CB097D00031F80 /* HistoricosTableViewCell.swift */; };
+		3F5C38ED20D065940011BCA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5C38EC20D065940011BCA0 /* ViewController.swift */; };
+		3F9FEBBB20D19C760013FFE0 /* EfetuandoPagamentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FEBBA20D19C760013FFE0 /* EfetuandoPagamentoViewController.swift */; };
+		3F9FEBBD20D1A1E80013FFE0 /* PagamentoEfetuadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FEBBC20D1A1E80013FFE0 /* PagamentoEfetuadoViewController.swift */; };
+		3F9FEBBF20D1A4A20013FFE0 /* ShowTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FEBBE20D1A4A20013FFE0 /* ShowTabBarViewController.swift */; };
 		3FA9741A20CAFEC60093EDEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9741920CAFEC60093EDEE /* AppDelegate.swift */; };
-		3FA9741C20CAFEC60093EDEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9741B20CAFEC60093EDEE /* ViewController.swift */; };
 		3FA9741F20CAFEC60093EDEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9741D20CAFEC60093EDEE /* Main.storyboard */; };
 		3FA9742120CAFEC60093EDEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9742020CAFEC60093EDEE /* Assets.xcassets */; };
 		3FA9742420CAFEC60093EDEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA9742220CAFEC60093EDEE /* LaunchScreen.storyboard */; };
 		3FA9742F20CAFEC60093EDEE /* JustGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9742E20CAFEC60093EDEE /* JustGoTests.swift */; };
 		3FA9743A20CAFEC70093EDEE /* JustGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9743920CAFEC70093EDEE /* JustGoUITests.swift */; };
+		3FA9745420CB085E0093EDEE /* LocalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9745320CB085E0093EDEE /* LocalTableViewController.swift */; };
+		3FA9745620CB08720093EDEE /* CartaoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9745520CB08720093EDEE /* CartaoTableViewController.swift */; };
+		3FA9745820CB08800093EDEE /* HistoricoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9745720CB08800093EDEE /* HistoricoTableViewController.swift */; };
+		3FA9745A20CB08AE0093EDEE /* LocaisTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA9745920CB08AE0093EDEE /* LocaisTableViewCell.swift */; };
+		3FF65EE120CEF6F300880623 /* Cartao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF65EE020CEF6F300880623 /* Cartao.swift */; };
+		3FF65EE320CEF75300880623 /* Historico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF65EE220CEF75300880623 /* Historico.swift */; };
+		3FF65EE520CEF8DF00880623 /* Estabelecimento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF65EE420CEF8DF00880623 /* Estabelecimento.swift */; };
+		3FF65EE720CF074700880623 /* DetalhesEstabelecimentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF65EE620CF074700880623 /* DetalhesEstabelecimentoViewController.swift */; };
+		3FF65EE920D040A800880623 /* DetalhesHistoricoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF65EE820D040A800880623 /* DetalhesHistoricoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F2A8BB320CB095800031F80 /* CartoesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartoesTableViewCell.swift; sourceTree = "<group>"; };
+		3F2A8BB520CB097D00031F80 /* HistoricosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoricosTableViewCell.swift; sourceTree = "<group>"; };
+		3F5C38EC20D065940011BCA0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		3F9FEBBA20D19C760013FFE0 /* EfetuandoPagamentoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EfetuandoPagamentoViewController.swift; sourceTree = "<group>"; };
+		3F9FEBBC20D1A1E80013FFE0 /* PagamentoEfetuadoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagamentoEfetuadoViewController.swift; sourceTree = "<group>"; };
+		3F9FEBBE20D1A4A20013FFE0 /* ShowTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowTabBarViewController.swift; sourceTree = "<group>"; };
 		3FA9741620CAFEC60093EDEE /* JustGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA9741920CAFEC60093EDEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FA9741B20CAFEC60093EDEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3FA9741E20CAFEC60093EDEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FA9742020CAFEC60093EDEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FA9742320CAFEC60093EDEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +66,15 @@
 		3FA9743520CAFEC60093EDEE /* JustGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA9743920CAFEC70093EDEE /* JustGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustGoUITests.swift; sourceTree = "<group>"; };
 		3FA9743B20CAFEC70093EDEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA9745320CB085E0093EDEE /* LocalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocalTableViewController.swift; path = ../LocalTableViewController.swift; sourceTree = "<group>"; };
+		3FA9745520CB08720093EDEE /* CartaoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CartaoTableViewController.swift; path = ../CartaoTableViewController.swift; sourceTree = "<group>"; };
+		3FA9745720CB08800093EDEE /* HistoricoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoricoTableViewController.swift; path = ../HistoricoTableViewController.swift; sourceTree = "<group>"; };
+		3FA9745920CB08AE0093EDEE /* LocaisTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocaisTableViewCell.swift; sourceTree = "<group>"; };
+		3FF65EE020CEF6F300880623 /* Cartao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cartao.swift; sourceTree = "<group>"; };
+		3FF65EE220CEF75300880623 /* Historico.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Historico.swift; sourceTree = "<group>"; };
+		3FF65EE420CEF8DF00880623 /* Estabelecimento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Estabelecimento.swift; sourceTree = "<group>"; };
+		3FF65EE620CF074700880623 /* DetalhesEstabelecimentoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesEstabelecimentoViewController.swift; sourceTree = "<group>"; };
+		3FF65EE820D040A800880623 /* DetalhesHistoricoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesHistoricoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +126,22 @@
 			isa = PBXGroup;
 			children = (
 				3FA9741920CAFEC60093EDEE /* AppDelegate.swift */,
-				3FA9741B20CAFEC60093EDEE /* ViewController.swift */,
 				3FA9741D20CAFEC60093EDEE /* Main.storyboard */,
+				3F9FEBBE20D1A4A20013FFE0 /* ShowTabBarViewController.swift */,
+				3F9FEBBC20D1A1E80013FFE0 /* PagamentoEfetuadoViewController.swift */,
+				3F9FEBBA20D19C760013FFE0 /* EfetuandoPagamentoViewController.swift */,
+				3F5C38EC20D065940011BCA0 /* ViewController.swift */,
+				3FF65EE620CF074700880623 /* DetalhesEstabelecimentoViewController.swift */,
+				3FF65EE820D040A800880623 /* DetalhesHistoricoViewController.swift */,
+				3F2A8BB520CB097D00031F80 /* HistoricosTableViewCell.swift */,
+				3F2A8BB320CB095800031F80 /* CartoesTableViewCell.swift */,
+				3FA9745920CB08AE0093EDEE /* LocaisTableViewCell.swift */,
+				3FA9745320CB085E0093EDEE /* LocalTableViewController.swift */,
+				3FA9745520CB08720093EDEE /* CartaoTableViewController.swift */,
+				3FA9745720CB08800093EDEE /* HistoricoTableViewController.swift */,
+				3FF65EE420CEF8DF00880623 /* Estabelecimento.swift */,
+				3FF65EE020CEF6F300880623 /* Cartao.swift */,
+				3FF65EE220CEF75300880623 /* Historico.swift */,
 				3FA9742020CAFEC60093EDEE /* Assets.xcassets */,
 				3FA9742220CAFEC60093EDEE /* LaunchScreen.storyboard */,
 				3FA9742520CAFEC60093EDEE /* Info.plist */,
@@ -193,6 +235,7 @@
 				TargetAttributes = {
 					3FA9741520CAFEC60093EDEE = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Y5G7662TDQ;
 						ProvisioningStyle = Automatic;
 					};
 					3FA9742920CAFEC60093EDEE = {
@@ -259,8 +302,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FA9741C20CAFEC60093EDEE /* ViewController.swift in Sources */,
+				3FA9745820CB08800093EDEE /* HistoricoTableViewController.swift in Sources */,
+				3FF65EE120CEF6F300880623 /* Cartao.swift in Sources */,
+				3FA9745A20CB08AE0093EDEE /* LocaisTableViewCell.swift in Sources */,
+				3F9FEBBB20D19C760013FFE0 /* EfetuandoPagamentoViewController.swift in Sources */,
+				3FF65EE720CF074700880623 /* DetalhesEstabelecimentoViewController.swift in Sources */,
+				3F9FEBBF20D1A4A20013FFE0 /* ShowTabBarViewController.swift in Sources */,
+				3FA9745620CB08720093EDEE /* CartaoTableViewController.swift in Sources */,
+				3F9FEBBD20D1A1E80013FFE0 /* PagamentoEfetuadoViewController.swift in Sources */,
+				3FF65EE920D040A800880623 /* DetalhesHistoricoViewController.swift in Sources */,
+				3FF65EE520CEF8DF00880623 /* Estabelecimento.swift in Sources */,
 				3FA9741A20CAFEC60093EDEE /* AppDelegate.swift in Sources */,
+				3F5C38ED20D065940011BCA0 /* ViewController.swift in Sources */,
+				3FF65EE320CEF75300880623 /* Historico.swift in Sources */,
+				3FA9745420CB085E0093EDEE /* LocalTableViewController.swift in Sources */,
+				3F2A8BB620CB097D00031F80 /* HistoricosTableViewCell.swift in Sources */,
+				3F2A8BB420CB095800031F80 /* CartoesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,7 +471,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y5G7662TDQ;
 				INFOPLIST_FILE = JustGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.JustGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,7 +485,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y5G7662TDQ;
 				INFOPLIST_FILE = JustGo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.JustGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +568,7 @@
 				3FA9744020CAFEC70093EDEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FA9744120CAFEC70093EDEE /* Build configuration list for PBXNativeTarget "JustGoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +577,7 @@
 				3FA9744320CAFEC70093EDEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FA9744420CAFEC70093EDEE /* Build configuration list for PBXNativeTarget "JustGoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +586,7 @@
 				3FA9744620CAFEC70093EDEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
